@@ -34,7 +34,7 @@ ENV JAVA_URL=http://download.oracle.com/otn-pub/java/jdk/${JAVA_VERSION_MAJOR}u$
     JAVA_DOWNLOAD_SHA256_HASH=6942684acb6001748a01fc090a18f52ebd8cbfcf7be27ec6131981906bfa8b53
 
 # configure nexus runtime
-ENV SONATYPE_DIR=/opt/sonatype
+ENV SONATYPE_DIR=/sonatype
 ENV NEXUS_HOME=${SONATYPE_DIR}/nexus \
     NEXUS_DATA=/nexus-data \
     NEXUS_CONTEXT='' \
